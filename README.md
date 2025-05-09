@@ -1,21 +1,16 @@
-# TESTNG Project
+# TESTNG API Automation Project
 
+## Testng Lifecycle
+```
 @BeforeSuite
-
     @BeforeTest
-
-        @BeforeGroups
-
-        @AfterGroups
-
         @BeforeClass
-
-            @BeforeMethod
-
-            @AfterMethod
-
+            @BeforeGroups
+                @BeforeMethod
+                    @Test
+                @AfterMethod
+            @AfterGroups
         @AfterClass
-
     @AfterTest
-
 @AfterSuite
+```
