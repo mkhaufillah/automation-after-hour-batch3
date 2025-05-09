@@ -1,4 +1,4 @@
-# Automation Project
+# Automation Project (Testng | API Automation | Web Automation)
 
 ## Testng Lifecycle
 ```
