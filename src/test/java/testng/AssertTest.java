@@ -7,7 +7,7 @@ import java.util.function.Predicate;
 import org.testng.Assert;
 import org.testng.annotations.Test;
 
-import data.Product;
+import testng.data.Product;
 
 public class AssertTest {
     @Test

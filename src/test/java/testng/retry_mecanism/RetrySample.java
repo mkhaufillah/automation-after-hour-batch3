@@ -1,4 +1,4 @@
-package retry_mecanism;
+package testng.retry_mecanism;
 
 import org.testng.IRetryAnalyzer;
 import org.testng.ITestResult;
@@ -11,7 +11,7 @@ public class RetrySample implements IRetryAnalyzer {
     public boolean retry(ITestResult result) {
         if (retryCount < maxRetryCount) {
             retryCount++;
-            System.out.println("Retrsying test " + result.getName() + " for the " + retryCount + " time.");
+            System.out.println("Retrying test " + result.getName() + " for the " + retryCount + " time.");
             return true;
         }
         return false;

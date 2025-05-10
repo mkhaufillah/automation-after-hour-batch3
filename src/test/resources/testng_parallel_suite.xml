@@ -1,7 +1,7 @@
 <!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
 
-<suite name="SimpleSuite" verbose="1" parallel="true" thread-count="5">
-  <test name="SimpleRegression">
+<suite name="ParallelSuite" verbose="1" parallel="true" thread-count="5">
+  <test name="ParallelRegression">
     <classes>
       <class name="testng.SimpleTest"/>
       <class name="testng.AssertTest"/>

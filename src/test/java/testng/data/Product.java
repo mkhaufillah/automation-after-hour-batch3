@@ -1,4 +1,4 @@
-package data;
+package testng.data;
 
 public class Product {
     private String name;
