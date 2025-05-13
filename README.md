@@ -39,7 +39,7 @@ reference: https://testng.org/
 ### Day 3 - RestAssured
 
 #### Sample RestAssured + store data in DB
-```src/test/java/database/EmployeeLoginApiTest.java```
+```src/test/java/api_test_integrate_db/EmployeeLoginApiTest.java```
 
 #### POJO
 ```src/main/java/com/demo/testng/program/pojo/User.java```
