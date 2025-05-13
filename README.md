@@ -38,4 +38,11 @@ reference: https://testng.org/
 
 ### Day 3 - RestAssured
 
-TBD
+#### Sample RestAssured + store data in DB
+```src/test/java/database/EmployeeLoginApiTest.java```
+
+#### POJO
+```src/main/java/com/demo/testng/program/pojo/User.java```
+
+#### DB Connection pool
+```src/main/java/com/demo/testng/program/connection/PostgresConnectionPool.java```
