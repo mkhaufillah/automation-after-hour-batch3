@@ -19,7 +19,7 @@ public class RestAssuredImpl {
          */
         String json = "{\"email\":\"afteroffice@gmail.com\",\"password\":\"afteroffice123\"}";
 
-        RestAssured.baseURI = "https://whitesmokehouse.com";                                                    
+        RestAssured.baseURI = "https://whitesmokehouse.com";
 
         Response response = RestAssured.given()
                             .contentType("application/json")
